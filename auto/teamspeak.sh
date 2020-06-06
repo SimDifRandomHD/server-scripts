@@ -11,7 +11,7 @@ cd /home/teamspeak
 chmod +x ts3server_startscript.sh
 touch .ts3server_license_accepted
 
-echo type a password for query serveradmin 
-read pass
+echo Type a password for your query serveradmin account.
+read serveradminpassword
 
-screen ./ts3server_startscript.sh start serveradmin_password=$pass
+screen ./ts3server_startscript.sh start serveradmin_password=$serveradminpassword
