@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt-get update
+sudo apt-get install zip unzip -y
 sudo apt install apache2 -y
 sudo apt install mysql-server -y
 sudo mysql_secure_installation
