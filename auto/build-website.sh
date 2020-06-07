@@ -1,3 +1,9 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get install software-properties-common python-software-properties build-essential zip unzip apache2 php libapache2-mod-php php-mcrypt php-mysql mysql-server -y
+sudo apt install apache2 -y
+sudo apt install mysql-server -y
+sudo mysql_secure_installation
+sudo apt install php libapache2-mod-php php-mysql -y
+sudo apt install certbot python3-certbot-apache -y
+sudo systemctl reload apache2
+sudo certbot --apache
