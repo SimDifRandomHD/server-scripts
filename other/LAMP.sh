@@ -1,0 +1,1 @@
+sudo apt-get install zip unzip apache2 php libapache2-mod-php php-mcrypt php-mysql -y
