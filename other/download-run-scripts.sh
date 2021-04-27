@@ -1,0 +1,1 @@
+wget -O - http://link-here.com/script-name.sh | bash
