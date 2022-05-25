@@ -1,1 +1,0 @@
-apt-get update; apt-get upgrade -y; nano /etc/network/interfaces
