@@ -6,10 +6,10 @@ This repository is all the scripts that I use when deploying a new server and ne
 
 
 # Minecraft Servers
-https://sh.simdifrandomhd.xyz/minecraft/
+[https://sh.simdifrandomhd.xyz/minecraft/](https://sh.simdifrandomhd.xyz/minecraft/)
 
 # Teamspeak Servers
-https://sh.simdifrandomhd.xyz/teamspeak
+[https://sh.simdifrandomhd.xyz/teamspeak](https://sh.simdifrandomhd.xyz/teamspeak)
 
 # Webservers
-https://sh.simdifrandomhd.xyz/webservers
+[https://sh.simdifrandomhd.xyz/webservers](https://sh.simdifrandomhd.xyz/webservers)
