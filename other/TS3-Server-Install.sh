@@ -3,7 +3,7 @@ sudo apt-get update; sudo apt-get upgrade -y; sudo reboot now
 #Make sure you have these installed, if not run this:
 sudo apt-get install nano wget tar perl bzip2 -y
 #Download the new server files and move to that folder
-wget http://dl.4players.de/ts/releases/3.4.0/teamspeak3-server_linux_amd64-3.4.0.tar.bz2 -P /home/temp; cd /home/temp
+wget https://files.teamspeak-services.com/releases/server/3.13.6/teamspeak3-server_win64-3.13.6.zip -P /home/temp; cd /home/temp
 #Extract the archive
 tar xjf teamspeak3-server_linux_amd64*.tar.bz2
 #Create a new user with your desired name.
@@ -58,43 +58,3 @@ systemctl enable teamspeak.service
 systemctl start teamspeak.service
 #Once you've started the server, you can check that it's running with this command.
 systemctl status teamspeak.service
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
